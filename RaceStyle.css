@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    background-image: url(http://ilgiliforum.com/resim/2015/02/22/109126_grass_texture_2d_14.png);
+}
+.road1 {
+    width: 100px;
+    height: 325px;
+    margin-left: 200px;
+    margin-top: 175px;
+    margin-bottom: -15px;
+    background: gray;
+}
+.road2 {
+    width: 850px;
+    height: 100px;
+    background: gray;
+    margin-left: 200px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.road3 {
+    width: 100px;
+    height: 150px;
+    margin-left: 950px;
+    margin-bottom: -20px;
+    margin-top: -250px;
+    background: gray;
+}
+
+.road4 {
+    width: 200px;
+    height: 100px;
+    background: gray;
+    margin-left: 950px;
+    margin-top: -250px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.road5 {
+    width: 100px;
+    height: 150px;
+    margin-left: 1050px;
+    margin-bottom: -20px;
+    margin-top: -250px;
+    background: gray;
+    border-top-right-radius: 50px;
+}
+
+.road6 {
+    width: 850px;
+    height: 100px;
+    background: gray;
+    margin-left: 200px;
+    margin-top: -150px;
+    border-top-left-radius: 50px;
+}
+
+.car {
+    height: 100px;
+    width: 100px;
+    margin-left: 205px;
+    margin-top: -180px;
+    transform: rotate(90deg);
+}
