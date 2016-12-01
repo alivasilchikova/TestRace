@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-image: url(http://ilgiliforum.com/resim/2015/02/22/109126_grass_texture_2d_14.png);
+    background-image: url(http://i.imgur.com/YSa3d.png);
 }
 .road1 {
     width: 100px;
@@ -56,7 +56,7 @@ body {
     border-top-left-radius: 50px;
 }
 
-.car {
+#car {
     height: 100px;
     width: 100px;
     margin-left: 205px;
