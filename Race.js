@@ -1,23 +1,28 @@
-function car_down () {x = 0;
-    x = document.getElementById("car").offsetTop;
-    xn = x + 50;
-    document.getElementById("car").style.top = xn+"px"
+function car_down () {
+    var x = 0;
+    var x = document.getElementById("car").offsetTop;
+    var xn = x + 50;
+    document.getElementById("car").style.top = xn+"px";
+
 }
 function car_up () {
-    x = 0;
-    x = document.getElementById("car").offsetTop;
-    xn = x - 50;
+    var x = 0;
+    var x = document.getElementById("car").offsetTop;
+    var xn = x - 50;
     document.getElementById("car").style.top = xn+"px"
 }
 function car_left () {
-    x = 0;
-    x = document.getElementById("car").offsetLeft;
-    xn = x - 50;
+    var x = 0;
+    var x = document.getElementById("car").offsetLeft;
+    var xn = x - 50;
     document.getElementById("car").style.left = xn+"px"
 }
 function car_right () {
-    x = 0;
-    x = document.getElementById("car").offsetLeft;
-    xn = x + 50;
+    var x = 0;
+    var x = document.getElementById("car").offsetLeft;
+    var xn = x + 50;
     document.getElementById("car").style.left = xn+"px"
 }
+
+var x = document.getElementById("car");
+x.addEventListener("click", car_down, false);
